@@ -2,9 +2,12 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  config:
+    import: optional:file:.env[.properties]
+
   datasource:
     url: jdbc:mysql://localhost:3306/birds
-    username: root
-    password: G!n4&J4$m!ne2008
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
     driverClassName: com.mysql.cj.jdbc.Driver
 #spring.jpa.show-sql: true

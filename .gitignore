@@ -25,3 +25,6 @@ replay_pid*
 
 # application properties
 /src/main/resources/env.properties
+.env
+
+target/target/
