@@ -27,6 +27,7 @@ replay_pid*
 /src/main/resources/env.properties
 .env
 
-target/
-target/
-target/
+/target
+/target
+/target
+ntarget/
