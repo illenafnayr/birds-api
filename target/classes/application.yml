@@ -4,7 +4,7 @@ spring:
       ddl-auto: update
   datasource:
     url: jdbc:mysql://localhost:3306/birds
-    username: 
-    password: test123fakepassword
+    username: root
+    password: G!n4&J4$m!ne2008
     driverClassName: com.mysql.cj.jdbc.Driver
 #spring.jpa.show-sql: true
